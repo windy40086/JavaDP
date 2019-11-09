@@ -36,30 +36,6 @@ class B implements inter {
     }
 }
 
-//接口隔离改进
-class B_plus implements inter {
-
-    public void operation1() {
-        System.out.println("B1");
-    }
-
-    public void operation2() {
-        System.out.println("B2");
-    }
-
-    public void operation3() {
-        System.out.println("B3");
-    }
-
-    public void operation4() {
-        System.out.println("B4");
-    }
-
-    public void operation5() {
-        System.out.println("B5");
-    }
-}
-
 class D implements inter {
 
     public void operation1() {
